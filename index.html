@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ben Franklin Clothing</title>
+    <link type="text/css" rel="stylesheet" href="cafe.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Ben Franklin Clothing"/>
+		<h2>Ben Franklin Clothing</h2>
+		<main>
+    </header>
+        <form id="order_form" name="order_form" action="checkout.html" method="get">
+            <section id="menu">
+            	<h2>Menu</h2>
+            	<p>Click an item to add it to your order.</p>
+            	<ul>
+            		<li><a href="#"><img id="images/blacklongsleeve.png" src="images/blacklongsleeve.png" alt="blacklongsleeve"/></a></li><br>
+            		<li><a href="#"><img id="images/longsleeve.png" src="images/longsleeve.png" alt="longsleeve"/></a></li><br>
+            		<li><a href="#"><img id="images/sweatpants.png" src="images/sweatpants.png" alt="sweatpants"/></a></li><br>
+            		<li><a href="#"><img id="images/sweatshirt.png" src="images/sweatshirt.png" alt="sweatshirt"/></a></li><br>
+            		<li><a href="#"><img id="images/tshirt.png" src="images/tshirt.png" alt="tshirt"/></a></li><br>
+            	
+            	</ul>
+            </section>
+
+            <section>
+            	<h2>Your Order</h2>
+            	<section>
+            		<select id="order" name="order" size="6"></select>
+            		<p id="total"></p>            		
+           		</section>
+            	<section id="buttons">
+           			<input type="button" name="place_order" id="place_order" value="Place Order">
+           			<input type="button" name="clear_order" id="clear_order" value="Clear Order">				            		
+            	</section>
+            </section>   
+        </form>
+	</main> 
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="cafe.js"></script>
+</body>
+</html>
