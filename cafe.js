@@ -13,6 +13,11 @@ const getSelectedProduct = src => {
         selected = ["sweatshirt", 39.99, "Sweat Shirt"];
     } else if (src == "images/tshirt.png") {
         selected = ["tshirt", 19.95, "Tshirt"];
+    } else if (src == "images/blacksweatshirt.png") {
+        selected = ["blacksweatshirt", 19.95, "Black Sweatshirt"];
+    }
+    else if (src == "images/blacksweatpants.png") {
+        selected = ["blacksweatpants", 19.95, "Black Sweatpants"];
     }
     return selected;  // returns empty array if no if condition is true
 };
