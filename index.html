@@ -15,28 +15,49 @@
         <form id="order_form" name="order_form" action="checkout.html" method="get">
             <section id="menu">
             	<h2>Menu</h2>
+			    <br>
             	<p>Click an item to add it to your order.</p>
-			  
 				<ul>	
-            		<li><a href="#"><img id="images/blacklongsleeve.png" src="images/blacklongsleeve.png" alt="blacklongsleeve"/></a></li><br>
+					<table>
+				<tr>
+					<td>
+            		<li><a href="#"><img id="images/blacklongsleeve.png" src="images/blacklongsleeve.png" alt="blacklongsleeve"/></a></li>
+				</td>
+				<td>
             		<li><a href="#"><img id="images/longsleeve.png" src="images/longsleeve.png" alt="longsleeve"/></a></li>
+				</td>
+		        <td>
 					<li><a href="#"><img id="images/blacksweatpants.png" src="images/blacksweatpants.png" alt="blacksweatpants"/></a></li>
+				</td>
+			
+				 <td>
 					<li><a href="#"><img id="images/sweatpants.png" src="images/sweatpants.png" alt="sweatpants"/></a></li>
+				</td>
+			</tr>
+			<tr>
+				<td>
 					<li><a href="#"><img id="images/blacksweatshirt.png" src="images/blacksweatshirt.png" alt="blacksweatshirt"/></a></li>
+				</td>
+					<td>
             		<li><a href="#"><img id="images/sweatshirt.png" src="images/sweatshirt.png" alt="sweatshirt"/></a></li>
+				</td>
+					<td>
             		<li><a href="#"><img id="images/tshirt.png" src="images/tshirt.png" alt="tshirt"/></a></li>	
-            	</ul>
-				
+				</td>
+			</tr>
+		</table>
+		</ul>
+		
 	
 		       </section>
 
             <section>
-            	<h2>Your Order</h2>
-            	<section>
+            	<h2 class="order">Your Order</h2>
+            	<section class="order">
             		<select id="order" name="order" size="6"></select>
             		<p id="total"></p>            		
            		</section>
-            	<section id="buttons">
+            	<section class="buttons">
            			<input type="button" name="place_order" id="place_order" value="Place Order">
            			<input type="button" name="clear_order" id="clear_order" value="Clear Order">				            		
             	</section>

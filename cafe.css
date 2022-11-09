@@ -20,8 +20,13 @@ h2 {
 	margin-top: 0;
 	margin-bottom: .2em;
 }
+img {
+	width: 150px;
+	height: 150px;
+
+}
 select {
-	width: 305px;
+	width: 150px;
 }
 #menu h2 {
 	padding-top: 1em;
@@ -37,6 +42,7 @@ ul {
 	margin-top: 0;
 }
 ul li {
+	list-style-type: none;
 	display: inline;
     padding: 5px 0 5px 0;
 }
@@ -48,6 +54,13 @@ input {
     width: 150px;
     margin-right: 5px;
 }
-#buttons {
-	margin-top: 0;
+
+.order {
+	margin: auto; 
+	width: 30%;
+}
+
+.buttons {
+	margin: auto; 
+	width: 70%;
 }
